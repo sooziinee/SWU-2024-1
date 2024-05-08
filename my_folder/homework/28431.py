@@ -7,6 +7,6 @@ for i in range(5):
 
     data[s] += 1
 
-    for key, val in data.items():
-        if val != 2:
-            print(key)
+for key, val in data.items():
+    if val != 2:
+        print(key)
